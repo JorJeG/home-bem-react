@@ -1,0 +1,5 @@
+.Option_size_l {
+  position: absolute;
+  bottom: 5px;
+  right: calc(35% - 50px);
+}

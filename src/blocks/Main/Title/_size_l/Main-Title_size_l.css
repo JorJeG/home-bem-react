@@ -1,0 +1,8 @@
+.Main-Title_size_l {
+  margin: 0;
+  margin-left: auto;
+  width: calc(35% - 16px);
+  max-height: 48px;
+  font-size: 19px;
+  line-height: 24px;
+}

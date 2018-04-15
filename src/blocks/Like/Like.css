@@ -1,0 +1,9 @@
+.Like {
+  position: absolute;
+  width: 17px;
+  height: 16px;
+}
+
+.Like .heart {
+  fill: #d8d8d8;
+}

@@ -1,0 +1,9 @@
+.Main-Article {
+  grid-row: span 1;
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow: hidden;
+}

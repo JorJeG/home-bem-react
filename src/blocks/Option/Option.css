@@ -1,0 +1,9 @@
+.Option {
+  box-sizing: border-box;
+  width: 24px;
+  height: 24px;
+}
+
+.Option circle {
+  fill: #d8d8d8;
+}

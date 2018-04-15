@@ -1,0 +1,6 @@
+.Main-Desc_size_l {
+  margin: 0;
+  margin-left: auto;
+  max-height: 160px;
+  width: calc(35% - 16px);
+}
