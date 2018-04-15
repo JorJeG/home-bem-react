@@ -1,0 +1,6 @@
+{
+  "main.css": "static/css/touch.css",
+  "main.css.map": "static/css/touch.css.map",
+  "main.js": "static/js/touch.js",
+  "main.js.map": "static/js/touch.js.map"
+}

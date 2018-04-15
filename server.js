@@ -6,6 +6,7 @@ const PORT = process.env.PORT || 3000;
 
 const app = express();
 app.use(useragent.express());
+app.use(express.static('build'));
 
 app.get('/', function(req, res) {
   console.log(req.useragent.isDesktop);
@@ -15,7 +16,5 @@ app.get('/', function(req, res) {
     res.sendFile(path.resolve(__dirname, 'build/html', 'touch.html'));
   }
 });
-
-app.use(express.static('build'));
 
 app.listen(PORT);
